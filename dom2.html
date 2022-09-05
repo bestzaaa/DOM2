@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function showMessage() {
+                document.getElementById('name').style.color = 'green';
+                document.getElementById('age').style.color = 'green';
+                document.getElementById('birthdete').style.color = 'green';
+            }
+            
+            </script>
+    </head>
+    <body>
+        <form >
+            <label for="firstname">Name : </label>
+            <input type="text" id="name" size="15" maxlength="8" onclick="showMessage()" ><br>
+            <label for="lastname">Age: </label>
+            <input type="text" id="age" size="15" maxlength="8"  onclick="showMessage()"><br>
+            <label for="firstname">Birthdate: </label>
+            <input type="text" id="birthdete" size="15" maxlength="8" onclick="showMessage()"><br>
+            </form>
+    </body>
+</html>
